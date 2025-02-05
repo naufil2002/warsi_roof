@@ -40,61 +40,64 @@
     </div>
     <!-- Spinner End -->
 
-      <!-- Navbar Start -->
-      <nav class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="#" class="navbar-brand ms-3 d-lg-none">WARSI ROOFING</a>
-        <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse text-center navbar-collapse p-2" id="navbarCollapse">
-            <div class="navbar-nav me-auto p-3 p-lg-0">
-                <a href="/contact.html" class="navbar-brand fw-bold text-light fs-4">WARSI ROOFING</a>
-            </div>
-            
-            <a href="index.html" class="nav-item nav-link text-white ">Home</a>
-            <a href="about.html" class="nav-item text-white nav-link">About Us</a>
-            <a href="service.html" class="nav-item text-white nav-link">Services</a>
-            <a href="product.html" class="nav-item text-white nav-link">Products</a>
-            <a href="contact.html" class="nav-item text-white nav-link active">Contact Us</a>
+        <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+    <a href="#" class="navbar-brand ms-3 d-lg-none">WARSI ROOFING</a>
+    <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse text-center navbar-collapse p-2" id="navbarCollapse">
+        <div class="navbar-nav me-auto p-3 p-lg-0">
+            <a href="/contact.html" class="navbar-brand fw-bold text-light fs-4">WARSI ROOFING</a>
         </div>
-    </nav>
-        <!-- Navbar End -->
-    
+
+        
+        <a href="index.html" class="nav-item nav-link text-white ">Home</a>
+        <a href="about.html" class="nav-item text-white nav-link ">About Us</a>
+        <a href="service.html" class="nav-item text-white nav-link">Services</a>
+        <a href="product.html" class="nav-item text-white nav-link">Products</a>
+        <a href="contact.html" class="nav-item text-white nav-link active">Contact Us</a>
+    </div>
+</nav>
+    <!-- Navbar End -->
+
     <!-- Add CSS for the active underline effect -->
-    <style>
-        /* Make sure nav-link works for the underline */
-        .nav-link {
-            position: relative;
-            color: white !important;
-            text-transform: uppercase;
-            font-weight: 500;
-            padding-bottom: 4px;
-            margin-right: 20px;  /* Add some spacing between the links */
-            transition: color 0.3s ease;
-        }
-    
-        /* Underline effect using border-bottom */
-        .nav-link::before {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background-color: #2858b0cd ; /* Bright underline color */
-            transition: width 0.3s ease;
-        }
-    
-        /* Hover and active state for underline */
-        .nav-link:hover::before, .nav-link.active::before {
-            width: 100%;
-        }
-    
-        /* Optional: Change text color on hover */
-        /* .nav-link:hover {
-            color: #2858b0cd !important;
-        } */
-    </style>
+<style>
+    /* Make sure nav-link works for the underline */
+    .nav-link {
+        position: relative;
+        color: white !important;
+        text-transform: uppercase;
+        font-weight: 500;
+        padding-bottom: 4px;
+        margin-right: 10px; 
+        margin-left: 10px;
+        
+        transition: color 0.3s ease;
+    }
+
+    /* Underline effect using border-bottom */
+    .nav-link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #2858b0cd ; /* Bright underline color */
+        transition: width 0.3s ease;
+    }
+
+    /* Hover and active state for underline */
+    .nav-link:hover::before, .nav-link.active::before {
+        width: 100%;
+    }
+
+    /* Optional: Change text color on hover */
+    /* .nav-link:hover {
+        color: #2858b0cd !important;
+    } */
+</style>
 
 
     <!-- Page Header Start -->
