@@ -26,18 +26,21 @@
     });
     
     
-    // Back to top button
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
-            $('.back-to-top').fadeIn('slow');
-        } else {
-            $('.back-to-top').fadeOut('slow');
-        }
-    });
-    $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
-        return false;
-    });
+// Back to top button
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 300) {
+        $('.back-to-top').fadeIn('slow');
+    } else {
+        $('.back-to-top').fadeOut('slow');
+    }
+});
+
+$('.back-to-top').click(function () {
+    // Make the scroll speed faster (e.g., 500ms instead of 1500ms)
+    $('html, body').animate({scrollTop: 0}, 500, 'easeInOutExpo');
+    return false;
+});
+
 
 
     // Facts counter
